@@ -1,0 +1,14 @@
+.modal-left{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    box-shadow: -8px 11px 29px -13px rgba(83, 83, 83, 0.38);
+    -webkit-box-shadow: -8px 11px 29px -13px rgba(83, 83, 83, 0.38);
+    -moz-box-shadow: -8px 11px 29px -13px rgba(83, 83, 83, 0.38);
+    position: absolute;
+    top: 38vh;
+    left: 10vw;
+    border-radius: 8px;
+    text-align: center;
+    word-wrap: break-word;
+}
