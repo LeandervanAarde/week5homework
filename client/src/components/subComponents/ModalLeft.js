@@ -1,10 +1,12 @@
 import React from 'react';
 import { MdErrorOutline } from "react-icons/md";
 import "./modalLeft.css"
-const ModalLeft = () => {
+const ModalLeft = (props) => {
     return (
         <div className='modal-left'>
-            MdErrorOutline
+             <MdErrorOutline color='red' size={35}/>
+            <h5> {props.message}</h5>
+   
         </div>
     );
 };

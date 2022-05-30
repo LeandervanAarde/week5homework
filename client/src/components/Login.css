@@ -3,7 +3,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-image: url("../../public/Assets/bg.jpg");
+    background-image: url("../../public/Assets/guillermo-ferla-Oze6U2m1oYU-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,13 +12,24 @@ form{
     height: 40vh;
 }
 
+.logo{
+    width: 70%;
+    margin-left: 13%;
+    margin-top: 2vh;
+    height: 10vh;
+    background-image: url("../../public/Assets/presentationlogo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .regCon {
     width: 30%;
     height: auto;
-    max-height: 65vh;
-    background-color: #75757593;
-    backdrop-filter: blur(10px) ;
-    -webkit-backdrop-filter: blur(10px) ;
+    max-height: 68vh;
+    background-color: #a7a7a722;
+    backdrop-filter: blur(12px) ;
+    -webkit-backdrop-filter: blur(12px) ;
     margin-top: 25vh;
     border-radius: 6px;
     box-shadow: -8px 11px 29px -13px rgba(83, 83, 83, 0.38);
@@ -30,10 +41,11 @@ h2, h1{
     text-align: center;
     font-family: sans-serif;
     font-weight: 800;
+    color: white;
 }
 
 input{
-background-color: transparent;
+background-color: transparent !important;
     border: none;
     outline: none;
     height: 3vh;
@@ -46,7 +58,19 @@ background-color: transparent;
     
 }
 
+.err{
+    border-bottom: 3px solid red;
+}
+
+.norm{
+    border-bottom: 2px solid white; 
+}
+
 ::placeholder{
+    color: white;
+}
+
+input{
     color: white;
 }
 
